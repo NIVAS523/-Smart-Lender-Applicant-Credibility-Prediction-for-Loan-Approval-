@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Rejected</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Inline CSS */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background-color: white;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 40px;
+            text-align: center;
+            width: 90%;
+            max-width: 500px;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .icon {
+            font-size: 80px;
+            color: #f44336;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            color: #666;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+
+        .button {
+            background-color: #f44336;
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #e53935;
+        }
+
+        @media (max-width: 600px) {
+            .icon {
+                font-size: 60px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .button {
+                font-size: 16px;
+                padding: 12px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <i class="fas fa-times-circle icon"></i>
+            <h1>We're Sorry!</h1>
+            <p>Unfortunately, your loan application was rejected. Please review the details or contact our support team for assistance.</p>
+            <a href="/" class="button">Return to Home</a>
+        </div>
+    </div>
+</body>
+</html>
